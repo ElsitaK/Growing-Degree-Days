@@ -17,9 +17,9 @@ Two options are given for when to start accumulating growing degree days -- the 
 
 ## Required R packages
 
-lubridate
-plyr
-dplyr
+- lubridate
+- plyr
+- dplyr
 
 ## Contact
 Author: elsita.k@gmail.com
