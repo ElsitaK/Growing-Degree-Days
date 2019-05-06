@@ -13,3 +13,14 @@ Base = 10C
 Two options are given for when to start accumulating growing degree days -- the conventional way (beginning March 1st) and beginning on January 1st. 
 
 ## Methods
+1. The file "Data-Clean-Up.R" imports all downloaded csv files, removes existing metadata, converts temperatures to Celsius and writes a series of new csv files (one for each GCM) incorporating the date, daily maximum and daily minimum temperatures. These are saved in a new folder "~/Modified-Tmax-Tmin" 
+2. The file "GDD-Program.R" imports the modified csv files and calculates and records cumulative growing degree days. It creates a new file for each GCM which appends the daily GDD, cumulative GDD calculated from January 1st onwards, cumulative GDD calculated from March 1st onwards, and the ordinal date to the original dataset with date, maximum and minimum temperatures. It saves these files to a new folder "~/GDD-20-GCMs"
+
+## Required R packages
+
+lubridate
+plyr
+dplyr
+
+## Contact
+Author: elsita.k@gmail.com
