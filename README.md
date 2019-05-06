@@ -6,9 +6,8 @@ This code calculates future Growing Degree Days using projected daily maximum an
 
 
 The thresholds used are those used for Corn: 
-Upper Threshold = 30C
-Lower Threshold = 10C
-Base = 10C
+Upper Threshold = 30C, 
+Lower Threshold = Base = 10C
 
 Two options are given for when to start accumulating growing degree days -- the conventional way (beginning March 1st) and beginning on January 1st. 
 
