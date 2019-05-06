@@ -2,7 +2,7 @@ library(lubridate)
 library(plyr)
 library(dplyr)
 
-setwd('~/Documents/NCSU/Machine Learning CH4/MACA RCP8.5 A2/MODIFIED Tmax Tmin')
+setwd('~/Growing-Degree-Days/Modified-Tmax-Tmin')
 
 ##set thresholds
 upper.Threshold <- 30
