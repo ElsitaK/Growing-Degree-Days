@@ -1,12 +1,12 @@
 #clean up the temperature data to prepare for GDD analysis
-#all data from site A2 (M2)
-#20 GCMs from MACA, 2016-2099
+#all data from site A2
+#20 GCMs, downscaled using RCP8.5, 2016-2099
 
 library(lubridate)
 library(plyr)
 library(dplyr)
 
-setwd('~/Documents/NCSU/Machine Learning CH4/MACA RCP8.5 A2/RAW Tmax Tmin')
+setwd('~/Growing-Degree-Days/Raw-MACA-Data')
 
 evens <- seq(2,61362,2) #temps
 odds <- seq(1,61362,2) #dates
