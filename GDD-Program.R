@@ -1,3 +1,9 @@
+#calculate daily and cumulative Growing Degree Days based on daily maximum and minimum temperatures
+#thresholds for use can be specified
+#2 options provided: starting to accumulate GDD on January 1st and on March 1st
+#Formula follows "Method 2" in:
+#McMaster, Gregory S., and W. W. Wilhelm. “Growing Degree-Days: One Equation, Two Interpretations.” Agricultural and Forest Meteorology 87, no. 4 (1997): 291–300.
+
 library(lubridate)
 library(plyr)
 library(dplyr)
