@@ -11,7 +11,7 @@ The thresholds used are those used for Corn:
 Upper Threshold = 30C, 
 Lower Threshold = Base = 10C
 
-Two options are given for when to start accumulating growing degree days -- the conventional way (beginning March 1st) and beginning on January 1st. 
+Two options are given for when to start accumulating growing degree days -- beginning March 1st (the conventional way) and beginning on January 1st. 
 
 ## Methods
 1. The file "Data-Clean-Up.R" imports all downloaded csv files, removes existing metadata, converts temperatures to Celsius and writes a series of new csv files (one for each GCM) incorporating the date, daily maximum and daily minimum temperatures. These are saved in a new folder "~/Modified-Tmax-Tmin". 
