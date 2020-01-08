@@ -1,7 +1,7 @@
 # Growing-Degree-Days
 
 ## Description
-This code calculates future Growing Degree Days using projected daily maximum and minimum temperatures from the MACA downscaled climate dataset (Abotzoglou & Brown, 2012; available at https://climate.northwestknowledge.net/MACA/data_csv.php). Data used are from 20 General Circulation Models which were downscaled using the RCP 8.5 emissions scenario for the time period 2016-2099. The Growing degree day formula used follows Method 2 as outlined by McMaster & Wilhelm (2007):
+This code calculates future Growing Degree Days using projected daily maximum and minimum temperatures from the MACA downscaled climate dataset (Abotzoglou & Brown, 2012; available at https://climate.northwestknowledge.net/MACA/data_csv.php). Data used are from 20 General Circulation Models which were downscaled using the RCP 8.5 emissions scenario for the time period 2016-2099. The Growing degree day formula follows the single triangle method as outlined by McMaster & Wilhelm (2007, Method 2):
 
 ![GDD Formula](https://github.com/ElsitaK/Test/blob/master/GDD.Formula.png)
 ![Thresholds1](https://github.com/ElsitaK/Test/blob/master/thresholds1.png)
