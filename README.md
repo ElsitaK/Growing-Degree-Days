@@ -20,7 +20,6 @@ Two options are given for when to start accumulating growing degree days -- begi
 ## Required R packages
 
 - lubridate
-- plyr
 - dplyr
 
 ## Contact
