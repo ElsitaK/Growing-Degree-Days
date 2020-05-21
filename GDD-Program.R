@@ -5,7 +5,6 @@
 #McMaster, Gregory S., and W. W. Wilhelm. “Growing Degree-Days: One Equation, Two Interpretations.” Agricultural and Forest Meteorology 87, no. 4 (1997): 291–300.
 
 library(lubridate)
-library(plyr)
 library(dplyr)
 
 setwd('~/Growing-Degree-Days/Modified-Tmax-Tmin')
